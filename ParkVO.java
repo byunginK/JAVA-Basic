@@ -17,9 +17,6 @@ package miniProject;
 
 // 컨트롤러: 사용자가 요청하는 data를 모델에 담아서 뷰에 보내주거나 사용자가 보낸 모델을 데이터베이스로 보내주는 역할을 한다.
 
-
-// 아래 4가지는 아직 몰라되됨
-
 // O: Open -Closed Principle
 // L: Liskov Substitution Principle
 // I: Interface principle
