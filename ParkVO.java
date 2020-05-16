@@ -39,4 +39,14 @@ public class ParkVO {
 	public void setInTime(int inTime) {
 		this.inTime = inTime;
 	}
+	public boolean equals(Object obj) {
+		if(obj instanceof ParkVO) {
+			ParkVO p = (ParkVO)obj ;
+			if(this.number == p.number) {
+				return true;
+			}
+			else return false;
+		}
+		return false;
+	}
 }
